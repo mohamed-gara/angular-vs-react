@@ -1,0 +1,69 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm text-center">
+      <div class="alert alert-light" role="alert">Style abstraction</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      <ul class="list-group">
+        <li class="list-group-item">Style encapsulation and abstraction</li>
+        <li class="list-group-item">Component wrapping</li>
+        <li class="list-group-item">High order component</li>
+      </ul>      
+    </div>
+    <div class="col-sm ">
+      <unordred-list>
+        <list-item>Style encapsulation and abstraction</list-item>
+        <list-item>Component wrapping</list-item>
+        <list-item>High order component</list-item>
+      </unordred-list>      
+    </div>
+    <div class="col-sm">
+        <unordred-list>
+          <list-item-with-host-binding>Style encapsulation and abstraction</list-item-with-host-binding>
+          <list-item-with-host-binding>Component wrapping</list-item-with-host-binding>
+          <list-item-with-host-binding>High order component</list-item-with-host-binding>
+        </unordred-list>      
+      </div>
+  </div>
+</div>
+
+<div class="container">
+    <div class="col-sm text-center">
+      <div class="alert alert-light" role="alert">Component wrapping</div>
+    </div>
+  <div class="row">
+    <div class="col-sm">
+      <div class="form-group">
+        <label for="project1">Project 1</label>
+        <ngb-progressbar id="project1" type="success" [value]="80"></ngb-progressbar>
+      </div>
+
+      <div class="form-group">
+        <label for="project2">Project 2</label>
+        <ngb-progressbar id="project2" type="info" [value]="50"></ngb-progressbar>
+      </div>
+    </div>
+    <div class="col-sm">
+        <app-progress-bar id="projec1" label="Project 1" type="success" [value]="80"></app-progress-bar>
+        <app-progress-bar id="projec2" label="Project 2" type="info" [value]="50"></app-progress-bar>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm text-center">
+      <div class="alert alert-light" role="alert">High order component</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      todo ...
+    </div>
+    <div class="col-sm">
+      todo ...
+    </div>
+  </div>
+</div>
